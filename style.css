@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://media.idownloadblog.com/wp-content/uploads/2021/09/Apple-September-Event-California-Streaming-BasicAppleGuy-iDownloadBlog-6K-No-Logo-2048x1206.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height:700px;
+
+}
+
+.gameField{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+}
+
+.cells {
+    display: flex;
+}
+
+.cell{
+    font-size: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+
+
+}
+
+.score{
+     background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    font-size: 20px;
+}
+
+.restart{
+    margin-top:10px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transform: all ease 0.5;
+}
+
+.restart:hover{
+    background-color: coral;
+    color: white;
+    border: 1px solid white;
+}
